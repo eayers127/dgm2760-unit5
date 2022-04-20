@@ -1,0 +1,109 @@
+header, main, footer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header{
+    background-image: url(../images/header_image.jpg);
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    max-height: 200px;
+    color: rgb(255, 255, 255);
+    text-shadow: 14px 14px 15px rgb(0, 0, 0);
+}
+
+header h1{
+    color: rgb(248, 248, 248);
+    padding: 1rem 0 0 1rem;
+    font-size: 36px;
+    margin-left: 2rem;
+    
+    
+    
+}
+header h2{
+    color: white;
+    font-size: 30px;
+    margin-left: 2rem;
+    padding: 1rem 0 0 1rem;
+}
+main h1{
+    color:rgb(7, 107, 40);
+}
+
+main h2{
+    color:rgb(7, 107, 40);
+}
+
+main{
+    
+    margin: 0 auto;
+    text-align: left;
+    
+    
+}
+
+main button{
+    display: block;
+    border: solid 2px rgb(7, 107, 40);
+    border-radius: 8px;
+    background-color: rgb(212, 210, 189);
+    padding: .5rem;
+    margin: .5rem 0;
+    width: 50%;
+    
+}
+
+#manipulate_trees button:hover{
+    cursor: pointer;
+    background-color: rgb(7, 107, 40);
+    color: white;
+
+}
+
+ul{
+    display: inline-block;
+    list-style-position: inside;
+    text-align: left;
+    margin: 0;
+    
+}
+li{
+    padding: 3px;
+    list-style: circle;
+    
+}
+main article{
+    float: left;
+    width: 50%;
+    
+}
+
+main aside{
+    float: left;
+    width: 40%;
+    
+}
+
+#displayResults{
+    background-color: thistle;
+}
+
+a{
+    box-shadow: black;
+    color: white;
+    margin: -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+
+
+footer{
+    background-color: beige;
+    text-align: center;
+    font-size: large;
+    margin: 0 auto;
+    padding: 15px;
+    clear: both;
+    
+}
